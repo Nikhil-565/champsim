@@ -45,7 +45,7 @@ ${OPTION}: extra option for "-low_bandwidth" (src/main.cc)
 ```
 Simulation results will be stored under "results_${N_SIM}M" as a form of "${TRACE}-${BINARY}-${OPTION}.txt".<br> 
 
-* Multi-core simulation: Run simulation with `run_4core.sh` script. <br>
+* Multi-core simulation : Run simulation with `run_4core.sh` script. <br>
 ```
 Usage: ./run_4core.sh [BINARY] [N_WARM] [N_SIM] [N_MIX] [TRACE0] [TRACE1] [TRACE2] [TRACE3] [OPTION]
 $ ./run_4core.sh bimodal-no-no-no-next_line-lru-4core-nine 1 10 0 600.perlbench_s-210B.champsimtrace.xz \\
