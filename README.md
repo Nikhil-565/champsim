@@ -82,3 +82,15 @@ $ vim src/myinc_pol.in
 $ ./build_champsim.sh mybranch mypref mypref mypref mypref myrepl 1 myinc_pol
 $ ./run_champsim.sh mybranch-myperf-mypref-mypref-mypref-myrepl-1core-myinc_pol 1 10 bzip2_183B
 ```
+<h2>Some sample results</h2>
+<p>results_30M_a are the results obtained when the code is run for using the default values of sizes
+<p>results_30M_b are the results obtained when the code is run for LLC_set = 2048*4*NUM_CPUS keeping other things constant</p> 
+<p>results_30M_c are the results obtained when the code is run for LLC_set = 2048*8*NUM_CPUS and LLC_WAY=32</p> 
+<p>results_30M_d are the results obtained when the code is run for LLC_set = 2048*32*NUM_CPUS and LLC_WAY=32</p> 
+<h2>Presentation link</h2>
+
+[Project Presentation](https://iitbacin-my.sharepoint.com/:p:/g/personal/210050143_iitb_ac_in/EWO7G3hIYz5DlKWk2nIY3wkBqohNii3eXOVkQh-k7qgMkA?e=KMpnda)
+
+<h2>Project video </h2>
+
+[video link](https://youtu.be/7dIACeHdrbA)
